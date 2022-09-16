@@ -1,0 +1,46 @@
+*{
+    text-align: center;
+    margin: 0;
+}
+body{
+    background: linear-gradient(115.58deg, #00FC19 0%, #1700A4 100.22%), 
+    radial-gradient(92.72% 100% at 50% 0%, #EBFFCB 0%, #651200 100%), 
+    radial-gradient(92.72% 100% at 50% 0%, #FAFF00 0%, #820000 100%), 
+    radial-gradient(109.21% 213.32% at 100% 0%, #FF4D00 0%, #00C2FF 100%), 
+    linear-gradient(127.43deg, #D50000 0%, #7856FF 100%);
+    background-blend-mode: lighten, overlay, lighten, screen, normal;}
+header{
+    padding: 2rem;
+}
+header h1, p{
+    margin: 0;
+}
+main input, button{
+    display: block;
+    margin: 1rem auto;
+}
+main input{
+    max-width: 250px;
+    width: 90%;
+    padding: 0.5rem;
+    border: 1px solid #FFE5C7;
+    border-radius: 0.2rem;
+}
+main button{
+    padding: 0.5rem 1.8rem;
+    border: 1px solid darkgoldenrod;
+    border-radius: 1rem;
+    font-weight: bold;
+    font-size: large;
+    background-color: darkorange;
+    cursor: pointer;
+}
+#output{
+    padding: 2rem;
+}
+footer{
+    position: fixed;
+    bottom: 0%;
+    padding: 1.5rem;
+    width: 100%;
+}
