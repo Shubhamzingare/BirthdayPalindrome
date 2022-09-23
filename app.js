@@ -20,7 +20,7 @@ function checkPalindrome(){
         var isPalindrome = checkPalindromeForAllDateFormats(date);
 
         if(isPalindrome){
-            outputDiv.innerText ="Yeah!!! Your birthday is palindrome 🤩🥳🤗";
+            outputDiv.innerText ="Yeah!!! Your birthday is palindrome 🥳🤗";
         }
         else{
             var [count, nextDate] = getNextPalindromeDate(date);
